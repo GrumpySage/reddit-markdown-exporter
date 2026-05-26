@@ -129,10 +129,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const prefix = getCommentPrefix(depth);
     const formattedBody = formatComment(body);
     const commentLine = style === 'webClipper'
-      ? formattedBody
+      ? `${formattedBody
           .split(/\r\n|\n|\r/)
           .map(line => `${prefix}${line}`)
-          .join('\n')
+          .join('\n')}\n${prefix}⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`
       : `${formattedBody} ⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
     output += `${commentLine}\n`;
 
