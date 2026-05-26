@@ -58,10 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
         displayPost(post);
         output += '\n\n## Comments\n\n';
 
-        const sortedComments = [...comments].sort(compareByUpvotesDesc);
-
         let commentCount = 0;
-        sortedComments.forEach(comment => {
+        comments.forEach(comment => {
           if (comment.kind === "t1" && shouldRenderComment(comment.data)) {
             try {
               if (commentCount > 0) output += spaceComment ? '\n\n' : '\n';
@@ -111,10 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
     return escapeNewLine ? text.replace(/(\r\n|\n|\r)/gm, '') : text;
   }
 
-  function compareByUpvotesDesc(a, b) {
-    return (b.data?.ups || 0) - (a.data?.ups || 0);
-  }
-
   function shouldRenderComment(commentData) {
     return Boolean(commentData?.body) && !(excludeDeleted && commentData?.author === "[deleted]");
   }
@@ -148,8 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
     output += `${commentLine}\n`;
 
     if (replies?.data?.children?.length) {
-      const sortedReplies = [...replies.data.children].sort(compareByUpvotesDesc);
-      sortedReplies.forEach(reply => displayComment(reply, depth + 1));
+      replies.data.children.forEach(reply => displayComment(reply, depth + 1));
     }
 
   }
