@@ -11,7 +11,7 @@ Try it instantly in your browser: [Reddit Markdown Exporter](https://grumpysage.
 ## ✨ Features
 
 - Export Reddit post + comments to Markdown
-- Choose export style: Tree or List
+- Choose export style: Web Clipper, Tree, or List
 - Optional: Escape new lines and space top-level comments
 - Download Markdown as a `.md` file
 
