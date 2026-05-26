@@ -6,7 +6,7 @@ Export Reddit threads (posts + comments) into clean and readable **Markdown form
 
 ## 🌐 Live Demo
 
-Try it instantly in your browser: [Reddit Markdown Exporter](https://grigorkh.github.io/reddit-markdown-exporter/)
+Try it instantly in your browser: [Reddit Markdown Exporter](https://grumpysage.github.io/reddit-markdown-exporter/)
 
 ## ✨ Features
 
