@@ -1,5 +1,5 @@
 let output = '';
-let style = 0;
+let style = 'webClipper';
 let escapeNewLine = false;
 let spaceComment = false;
 let excludeDeleted = false;
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function setOptions() {
-    style = document.querySelector('input[name="exportStyle"]:checked').value === 'tree' ? 0 : 1;
+    style = document.querySelector('input[name="exportStyle"]:checked').value;
     escapeNewLine = document.getElementById('escapeNewLine').checked;
     spaceComment = document.getElementById('spaceComment').checked;
     excludeDeleted = document.getElementById('excludeDeleted').checked;
@@ -108,13 +108,33 @@ document.addEventListener('DOMContentLoaded', () => {
     return escapeNewLine ? text.replace(/(\r\n|\n|\r)/gm, '') : text;
   }
 
+  function getCommentPrefix(depth) {
+    if (style === 'tree') {
+      const indent = '─'.repeat(depth);
+      return indent ? `├${indent} ` : '##### ';
+    }
+
+    if (style === 'list') {
+      const indent = '\t'.repeat(depth);
+      return indent ? `${indent}- ` : '- ';
+    }
+
+    return depth > 0 ? `${'> '.repeat(depth)}` : '';
+  }
+
   function displayComment(comment, depth) {
     const { body, author, ups, downs, replies } = comment.data || {};
     if (!body || (excludeDeleted && author === "[deleted]")) return;
 
-    const indent = style === 0 ? '─'.repeat(depth) : '\t'.repeat(depth);
-    const prefix = style === 0 ? (indent ? `├${indent} ` : '##### ') : (indent ? `${indent}- ` : '- ');
-    output += `${prefix}${formatComment(body)} ⏤ by *${author}* (↑ ${ups} / ↓ ${downs})\n`;
+    const prefix = getCommentPrefix(depth);
+    const formattedBody = formatComment(body);
+    const commentLine = style === 'webClipper'
+      ? formattedBody
+          .split(/\r\n|\n|\r/)
+          .map(line => `${prefix}${line}`)
+          .join('\n')
+      : `${formattedBody} ⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
+    output += `${commentLine}\n`;
 
     if (replies?.data?.children?.length) {
       replies.data.children.forEach(reply => displayComment(reply, depth + 1));
