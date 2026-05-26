@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return indent ? `${indent}- ` : '- ';
     }
 
-    return depth > 0 ? `${'> '.repeat(depth+1)}` : '> ';
+    return depth > 0 ? `> ${'> '.repeat(depth)}` : '> ';
   }
 
   function displayComment(comment, depth) {
