@@ -128,12 +128,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const prefix = getCommentPrefix(depth);
     const formattedBody = formatComment(body);
-    const commentLine = style === 'webClipper'
-      ? `${formattedBody
-          .split(/\r\n|\n|\r/)
-          .map(line => `${prefix}${line}`)
-          .join('\n')}\n${prefix}⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`
-      : `${formattedBody} ⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
+    const bodyLines = formattedBody.split(/\r\n|\n|\r/);
+    const prefixedBody = bodyLines.map(line => `${prefix}${line}`).join('\n');
+    const metadata = `${prefix}⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
+    const commentLine = style === 'webClipper' || bodyLines.length > 1
+      ? `${prefixedBody}\n${metadata}`
+      : `${prefix}${formattedBody} ⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
     output += `${commentLine}\n`;
 
     if (replies?.data?.children?.length) {
