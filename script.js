@@ -58,10 +58,13 @@ document.addEventListener('DOMContentLoaded', () => {
         displayPost(post);
         output += '\n\n## Comments\n\n';
 
+        const sortedComments = [...comments].sort(compareByUpvotesDesc);
+
         let commentCount = 0;
-        comments.forEach(comment => {
-          if (comment.kind === "t1") {
+        sortedComments.forEach(comment => {
+          if (comment.kind === "t1" && shouldRenderComment(comment.data)) {
             try {
+              if (commentCount > 0) output += spaceComment ? '\n\n' : '\n';
               displayComment(comment, comment.data?.depth || 0);
               commentCount++;
             } catch (e) {
@@ -108,6 +111,14 @@ document.addEventListener('DOMContentLoaded', () => {
     return escapeNewLine ? text.replace(/(\r\n|\n|\r)/gm, '') : text;
   }
 
+  function compareByUpvotesDesc(a, b) {
+    return (b.data?.ups || 0) - (a.data?.ups || 0);
+  }
+
+  function shouldRenderComment(commentData) {
+    return Boolean(commentData?.body) && !(excludeDeleted && commentData?.author === "[deleted]");
+  }
+
   function getCommentPrefix(depth) {
     if (style === 'tree') {
       const indent = '─'.repeat(depth);
@@ -124,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function displayComment(comment, depth) {
     const { body, author, ups, downs, replies } = comment.data || {};
-    if (!body || (excludeDeleted && author === "[deleted]")) return;
+    if (!shouldRenderComment(comment.data)) return;
 
     const prefix = getCommentPrefix(depth);
     const formattedBody = formatComment(body);
@@ -137,10 +148,10 @@ document.addEventListener('DOMContentLoaded', () => {
     output += `${commentLine}\n`;
 
     if (replies?.data?.children?.length) {
-      replies.data.children.forEach(reply => displayComment(reply, depth + 1));
+      const sortedReplies = [...replies.data.children].sort(compareByUpvotesDesc);
+      sortedReplies.forEach(reply => displayComment(reply, depth + 1));
     }
 
-    if (depth === 0 && spaceComment) output += '\n';
   }
 
   document.getElementById("copyButton").addEventListener("click", () => {
