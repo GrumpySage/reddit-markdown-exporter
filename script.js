@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const metadata = `${prefix}⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
     const commentLine = style === 'webClipper' || bodyLines.length > 1
       ? `${prefixedBody}\n${metadata}`
-      : `${prefixedBody} ⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
+      : `${prefixedBody} ${metadata.slice(prefix.length)}`;
     output += `${commentLine}\n`;
 
     if (replies?.data?.children?.length) {
