@@ -131,9 +131,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const bodyLines = formattedBody.split(/\r\n|\n|\r/);
     const prefixedBody = bodyLines.map(line => `${prefix}${line}`).join('\n');
     const metadata = `${prefix}⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
-    const commentLine = style === 'webClipper' || bodyLines.length > 1
+    const commentLine = style === 'webClipper'
       ? `${prefixedBody}\n${metadata}`
-      : `${prefix}${formattedBody} ⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
+      : `${prefixedBody} ⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
     output += `${commentLine}\n`;
 
     if (replies?.data?.children?.length) {
