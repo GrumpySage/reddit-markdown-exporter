@@ -62,8 +62,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let commentCount = 0;
         sortedComments.forEach(comment => {
-          if (comment.kind === "t1") {
+          if (comment.kind === "t1" && shouldRenderComment(comment.data)) {
             try {
+              if (commentCount > 0) output += spaceComment ? '\n\n' : '\n';
               displayComment(comment, comment.data?.depth || 0);
               commentCount++;
             } catch (e) {
@@ -114,6 +115,10 @@ document.addEventListener('DOMContentLoaded', () => {
     return (b.data?.ups || 0) - (a.data?.ups || 0);
   }
 
+  function shouldRenderComment(commentData) {
+    return Boolean(commentData?.body) && !(excludeDeleted && commentData?.author === "[deleted]");
+  }
+
   function getCommentPrefix(depth) {
     if (style === 'tree') {
       const indent = '─'.repeat(depth);
@@ -130,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function displayComment(comment, depth) {
     const { body, author, ups, downs, replies } = comment.data || {};
-    if (!body || (excludeDeleted && author === "[deleted]")) return;
+    if (!shouldRenderComment(comment.data)) return;
 
     const prefix = getCommentPrefix(depth);
     const formattedBody = formatComment(body);
@@ -147,7 +152,6 @@ document.addEventListener('DOMContentLoaded', () => {
       sortedReplies.forEach(reply => displayComment(reply, depth + 1));
     }
 
-    if (depth === 0 && spaceComment) output += '\n';
   }
 
   document.getElementById("copyButton").addEventListener("click", () => {
