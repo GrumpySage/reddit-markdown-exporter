@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const bodyLines = formattedBody.split(/\r\n|\n|\r/);
     const prefixedBody = bodyLines.map(line => `${prefix}${line}`).join('\n');
     const metadata = `${prefix}⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
-    const commentLine = style === 'webClipper'
+    const commentLine = style === 'webClipper' || bodyLines.length > 1
       ? `${prefixedBody}\n${metadata}`
       : `${prefixedBody} ⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
     output += `${commentLine}\n`;
