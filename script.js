@@ -127,9 +127,9 @@ document.addEventListener('DOMContentLoaded', () => {
     return depth > 0 ? `> ${'> '.repeat(depth)}` : '> ';
   }
 
-  function getDepthReductionSpacer(nextDepth) {
-    if (nextDepth <= 0) return '';
-    return getCommentPrefix(nextDepth - 1).trimEnd();
+  function getDepthReductionSpacer(targetDepth) {
+    if (targetDepth <= 0) return '';
+    return getCommentPrefix(targetDepth - 1).trimEnd();
   }
 
   function displayComment(comment, depth, spacingState) {
