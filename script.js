@@ -59,11 +59,11 @@ document.addEventListener('DOMContentLoaded', () => {
         output += '\n\n## Comments\n\n';
 
         let commentCount = 0;
+        const commentSpacingState = { previousDepth: null };
         comments.forEach(comment => {
           if (comment.kind === "t1" && shouldRenderComment(comment.data)) {
             try {
-              if (commentCount > 0) output += spaceComment ? '\n\n' : '\n';
-              displayComment(comment, comment.data?.depth || 0);
+              displayComment(comment, comment.data?.depth || 0, commentSpacingState);
               commentCount++;
             } catch (e) {
               console.warn('Skipping comment due to error:', comment, e);
@@ -127,9 +127,23 @@ document.addEventListener('DOMContentLoaded', () => {
     return depth > 0 ? `> ${'> '.repeat(depth)}` : '> ';
   }
 
-  function displayComment(comment, depth) {
+  function getDepthReductionSpacer(nextDepth) {
+    if (nextDepth <= 0) return '';
+    return getCommentPrefix(nextDepth - 1).trimEnd();
+  }
+
+  function displayComment(comment, depth, spacingState) {
     const { body, author, ups, downs, replies } = comment.data || {};
     if (!shouldRenderComment(comment.data)) return;
+
+    if (
+      spaceComment &&
+      style === 'webClipper' &&
+      spacingState?.previousDepth !== null &&
+      depth < spacingState.previousDepth
+    ) {
+      output += `${getDepthReductionSpacer(depth)}\n`;
+    }
 
     const prefix = getCommentPrefix(depth);
     const formattedBody = formatComment(body);
@@ -140,9 +154,10 @@ document.addEventListener('DOMContentLoaded', () => {
       ? `${prefixedBody}\n${metadata}`
       : `${prefixedBody} ${metadata.slice(prefix.length)}`;
     output += `${commentLine}\n`;
+    if (spacingState) spacingState.previousDepth = depth;
 
     if (replies?.data?.children?.length) {
-      replies.data.children.forEach(reply => displayComment(reply, depth + 1));
+      replies.data.children.forEach(reply => displayComment(reply, depth + 1, spacingState));
     }
 
   }
