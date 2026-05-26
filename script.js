@@ -58,8 +58,10 @@ document.addEventListener('DOMContentLoaded', () => {
         displayPost(post);
         output += '\n\n## Comments\n\n';
 
+        const sortedComments = [...comments].sort(compareByUpvotesDesc);
+
         let commentCount = 0;
-        comments.forEach(comment => {
+        sortedComments.forEach(comment => {
           if (comment.kind === "t1") {
             try {
               displayComment(comment, comment.data?.depth || 0);
@@ -108,6 +110,10 @@ document.addEventListener('DOMContentLoaded', () => {
     return escapeNewLine ? text.replace(/(\r\n|\n|\r)/gm, '') : text;
   }
 
+  function compareByUpvotesDesc(a, b) {
+    return (b.data?.ups || 0) - (a.data?.ups || 0);
+  }
+
   function getCommentPrefix(depth) {
     if (style === 'tree') {
       const indent = '─'.repeat(depth);
@@ -137,7 +143,8 @@ document.addEventListener('DOMContentLoaded', () => {
     output += `${commentLine}\n`;
 
     if (replies?.data?.children?.length) {
-      replies.data.children.forEach(reply => displayComment(reply, depth + 1));
+      const sortedReplies = [...replies.data.children].sort(compareByUpvotesDesc);
+      sortedReplies.forEach(reply => displayComment(reply, depth + 1));
     }
 
     if (depth === 0 && spaceComment) output += '\n';
