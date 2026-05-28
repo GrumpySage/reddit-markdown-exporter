@@ -1,0 +1,542 @@
+I bought the massive box almost a year ago thinking it would be the highlight of our girl's nights. We even did the whole thing where we scheduled dates three months in advance because we are all adults with careers and actual responsibilities. The first three sessions were great. We were unlocking stickers, tearing up cards, and feeling like we were part of something big. Then the usual happens. One girl gets a promotion and suddenly has zero free time. Another starts dating some guy who thinks board games are for toddlers and she just vanished. Now I am sitting here looking at this sixty pound box that is basically a graveyard of broken promises.
+
+The worst part about legacy mechanicss is that you cannot just find new people to fill the slots. I mean technically you can but it feels wrong. The story is half-baked and the characters have thier own progression that someone else would just inherit. It is like trying to jump into the middle of a complex tv show where you missed all the character arcs. I have stickers on the map that remind me of nights we actually had fun but now they just feel like chores I never finished. I checked the secondary market and of course nobody wants a used legacy game unless I want to spend another fifty bucks on a reset kit and spend hours scraping off stickers with a knife.
+
+I keep asking the group chat when we are going to play again. I get the usual thumbs up emojis or the vague I will check my calendar responses that never lead anywhere. It is honestly exhausting being the only person who cares about finishing the campaign. At this point the box is just taking up space on my shelf of shame and mocking me every time I walk past it. I am seriously considering just playing the rest of it solo but that feels like a total defeat. It was meant to be a shared experience and now it is just a very expensive reminder that organizing four adults to do the same thing for fifty weeks is a statistical impossibility. I think I will just stick to one-shots from now on .
+
+---
+
+## Comments
+
+> **chasteguy2018** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu3ez7/) · 108 points
+> 
+> The only person I would ever attempt a legacy game with is my wife. It’s almost impossible to get people to meet consistently long enough to finish one of these with adults
+> 
+> > **Nimeroni** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onwlauq/) · 18 points
+> > 
+> > I played dozen of legacy games (including long campaigns like Frosthaven) with busy adults.
+> > 
+> > The key to finish your legacy campaigns is to play with adults that are willing to *lock-in* a specific night each week. They know every X is gaming night, and they will give said gaming night priority over other social calls (those calls are simply moved to other days of the week).
+> > 
+> > And to be clear, not all adults are like that. You might need to try multiple groups.
+> > 
+> > (Also rotate groups if you want to play more than your friends do.)
+> > 
+> > **YorubaOyinbo** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onv8ig9/) · 23 points
+> > 
+> > Shorter legacy games can be fine, like Clank and King’s Dilemma. Even Jaws of the Lion is night-and-day different from Gloomhaven or Frosthaven. Journeys in Middle Earth is the perfect game for this.
+> > 
+> > Financially independent adults with no kids, at any rate, can easily manage legacy games — but I agree that committing 500 hours to a single game is an unrealistic ask of anyone. 2p with spouse is the peak Gloomhaven dynamic.
+> > 
+> > > **MrChinchilla** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onvr7yl/) · 7 points
+> > > 
+> > > Ive has the same board game group since college, so even if it takes a year i know we will finish one. Idk if I'd start a legacy game without this group
+> 
+> > **Rohkey90** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onxaxn9/) · 5 points
+> > 
+> > I learned this lesson as well, thankfully with a shorter/lighter legacy game (Ticket to Ride). A couple who used to host game nights had had a new copy and I mentioned my wife and I had played through it and enjoyed it, so they asked if we wanted to do a 4p campaign. After the second session (four of the twelve years) I got a message saying they didn’t want to continue. They wouldn’t give me a straight answer as to why except something about “we learned legacy games don’t work as well when some of the people have played them before”, and I maybe suspect they thought somehow we had an advantage because my wife was doing very well in the games whereas the primary host was not.  
+> > 
+> > Two or so years later and they still have the game, basically unusable since we already altered content in it and whatnot. We were careful not to spoil anything and I feel like previous experience wasn’t all that impactful, but whatever they felt it made me realize that if I ever invested money in a game that was a group commitment then I better strongly trust the people involved to see it through to the end, and pretty much my wife is the the only one at the moment I’d trust that with.
+
+> **BlackSpicedRum** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu2qs9/) · 313 points
+> 
+> I think you can continue with other people. The game is so long the next group will see way more of it than the original. Theres digitial trackers you can use for the campaign if you dont want to unsticker what you already have. Honestly, id play a beginning scenario or two with the new group and then say we're continuing where my last group was. Kind of makes sense in world too for some adventurers to start helping in Frosthaven and say fuck this we're out, and new mercs came.
+> 
+> The memories though, thats always going to sting a little... (looks at unfinished pandemic legacy season 1)
+> 
+> > **tonytwostep** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu5j6s/) · 120 points
+> > 
+> > Agreed. I’ve felt OP’s frustration with other legacy games, but Frosthaven really is built to allow characters/players to easily rotate in and out as needed. The “story” is more a collection of little campaigns, and it’s expected that your band of mercs will have mismatched levels due to characters retiring at different times.
+> > 
+> > Basically, it can totally be a [West Marches](https://arsludi.lamemage.com/index.php/78/grand-experiments-west-marches/) style game if you want it to be.
+> > 
+> > **ikkleste** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuaish/) · 33 points
+> > 
+> > Ya. We swapped a player on our GH campaign post pandemic. We've now finished the main story and I dropped out, but the other three are doing the expansion. Gloomhaven is more forgiving of swaps than most legacy games, it needs to be this isn't 15 games of pandemic.
+> > 
+> > If FH is like GH it's probably just worth giving new players new characters rather than trying to pick up someone else's. But the character retirement facilitates this swapping anyway.
+> > 
+> > That said if it's challenging to get the group together in the first place, it's disappointing to not have that play out, and finding someone to join can be challenging enough. Sorry for OPs loss.
+> > 
+> > **bgaesop** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onvrd6u/) · 19 points
+> > 
+> > > (looks at unfinished pandemic legacy season 1)
+> > 
+> > Guess what real world event killed my monthly game of Pandemic Legacy in month 10
+> > 
+> > > **tomas\_shugar** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onw4rob/) · 9 points
+> > > 
+> > > I got a double tap with that one. One of the players literally died (alcoholism, not COVID, but timing was as such).
+> > > 
+> > > > **grumpher05** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onwiaeg/) · 4 points
+> > > > 
+> > > > Same here, not alcoholism though
+> 
+> > **xiphoniii** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onw3ugg/) · 8 points
+> > 
+> > I've got legacy games with names written on them that actively turned on me during the political events of the last 10 years. I've got games we can't really look at without weird feelings because the name written on there is a pre-transition name that causes discomfort. It's bittersweet to have these memories.
+> > 
+> > **dizzyducky14** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onx5qit/) · 6 points
+> > 
+> > I joined a GH group mid way. Took over an existing character. Was a great experience.
+> > 
+> > **spiderdoofus** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onulzir/) · 10 points
+> > 
+> > Yeah, I personally would not mind jumping in mid-stream to a campaign in a game like this.
+> > 
+> > In original GH, a player could also just start a new character as the game was fairly robust to having a player start a fresh character if they wanted.
+> > 
+> > **YorubaOyinbo** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onvbj3z/) · 13 points
+> > 
+> > There are fundamentally two types of board game enthusiasts: those who see games as a fun way (means) to spend time with those they love (ends), and those who see the game itself as the end-goal, and friends or other people as the means to achieve it.
+> > 
+> > Due to a lot of factors, I’d estimate that 80-90% of the people on this sub are the second type. And for the second type, your advice is good.
+> > 
+> > OP absolutely sounds like the first type, unfortunately.
+> > 
+> > **ZubonKTR** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onw8kyd/) · 3 points
+> > 
+> > Not every campaign game supports player swap well, mechanically or thematically. The 'havens seem most optimal for it, given that the characters themselves come and go over the course of the campaign.
+> > 
+> > **Adamsoski** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onvhwc3/) · 5 points
+> > 
+> > Also, with the -haven games if you're only 3 sessions in you can restart and replay them without any difficulty at all, that's likely only 5% or less of the way through the campaign. There's barely anything permanent that they would have done in that point. Also worth noting that many many people *are* able to schedule four adults to do the same thing for fifty weeks (not necessarily consecutively) whether that is boardgames, RPGs, etc. - definitely not a statisticl impossibility.
+> > 
+> > **BuffelBek** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onxxqq6/) · 2 points
+> > 
+> > Yeah, the -haven games are a lot easier to slot other people in.
+> > 
+> > We had a 4 player Gloomhaven campaign going that got completely derailed when two of the participants had a messy breakup. We just ended up continuing the campaign without those two and had another friend tag in as a third player, taking over the character from one of the former players.
+
+> **Curtain\_8LP** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu2dwu/) · 538 points
+> 
+> I feel this in my soul. Trying to schedule 4 adults is like trying to herd cats. Just sell the game or find a new group, don't let it kill your passion for the hobby.
+> 
+> > **M1nd-Gobl1n** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onurkck/) · 49 points
+> > 
+> > As a DnD player I could feel the anguish. Also as a DnD player, get a new player in. It will be tough but just explain the in jokes and summarize the past plot points when they arise/beforehand. Playing with someone who doesn’t know what’s going on is better than not playing at all
+> > 
+> > **almo2001** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu370r/) · 74 points
+> > 
+> > I really came to understand "herding cats" once we had 3 of them. Now we have 4, and it's crazy.
+> > 
+> > > **Poodychulak** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuz1lc/) · 10 points
+> > > 
+> > > Just get out the treats
+> > > 
+> > > > **Wunderkindergartener** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onwa25s/) · 14 points
+> > > > 
+> > > > Found the cat! ;-)
+> > > > 
+> > > > **almo2001** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onvvnv8/) · 2 points
+> > > > 
+> > > > :)
+> > 
+> > > **GoGabeGo** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onwbzyf/) · 3 points
+> > > 
+> > > Four cat gang, rise up!
+> 
+> > **Potential\_Aioli\_4611** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu7um0/) · 59 points
+> > 
+> > except no one want's a SECOND HAND game where someone's opened the box, peeled some of the stickers, ripped up some cards. some games sell a "reset pack" but mostly... its just not resettable.
+> > 
+> > > **A\_Mouse\_In\_Da\_House** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onvc71i/) · 9 points
+> > > 
+> > > This is why I get the plasticy sticker things when I legacy games. Just know the first few attempts will fizzle
+> > > 
+> > > **marquize** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuxxqt/) · 15 points
+> > > 
+> > > Plenty of people will want to get a deal on a game that costs that much, it's worth trying. Just be honest when listing it
+> > > 
+> > > **No-Material-4755** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onzma3m/) · 2 points
+> > > 
+> > > Obviously doesn't help if you already did, but there is no need to rip up cards and the stickers really don't matter at all. We are playing a used one (they didn't destroy anything) and don't mind at all. TBH I would rather buy a used one than new if the seller included an organizer
+
+> **Jaydash808** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu3hyl/) · 25 points
+> 
+> Plays great at 2 just proceed without them. Invite: “X and I are going to get a game in this Friday all are welcome to join”. When they are available they’ll join back in. If they’re busy they won’t care about the story too much anyway. Don’t forget about the added inspiration! It will be important for campaign progression. 
+> 
+> We’ll do photos and updates back to the teammates who couldn’t make it - they give us props for a win. Keeps people somewhat in the loop and things moving forward.
+
+> **CranberryLoft** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu2w5v/) · 111 points
+> 
+> Just embrace the solo play. Honestly, Frosthaven shines even when you control all characters. It is not a defeat, just a different way to enjoy what you paid for.
+> 
+> > **Marcellus\_Crowe** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onug28a/) · 17 points
+> > 
+> > Great suggestion. There is something intangible lost when other people aren't playing too, but solo board gaming is legit, and a great way to rescue this kind of situation.
+
+> **Potential\_Aioli\_4611** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu2nyy/) · 167 points
+> 
+> This is the problem with campaign/legacy games. You are practically locked in to a single group of people.
+> 
+> Someone decides to ditch? It's ruined.
+> 
+> Someone couldn't make it that day? Ruined.
+> 
+> ANY of the group loses interest? Ruined.
+> 
+> Its a nice idea in theory but not really practical. Only way I'd buy one of these games now is if everyone splits the cost
+> 
+> > **polymorphicprism** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu4drj/) · 75 points
+> > 
+> > One trick I learned is that you can play something else if someone can't make a session. One time we even hung out and cooked instead of playing a board game. My life was still ruined but at least we got to eat a nice dinner.
+> > 
+> > > **Potential\_Aioli\_4611** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu7m3s/) · 22 points
+> > > 
+> > > yeah but you can always play a different game. the point is that it requires time/effort/attention buy in from everyone and its not really playable with any other group.
+> > > 
+> > > > **CorpusF** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuca24/) · 9 points
+> > > > 
+> > > > It could still work in a way of, keeping the group events going.  
+> > > > You don't end up just cancelling all of it, and you still hang out even if one person cancels. That would make it more likely that you can get back to the game at a later date.
+> > 
+> > > **LittleRedCorvette2** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuw1n1/) · 2 points
+> > > 
+> > > Lol. I'm glad you got a nice dinner!
+> 
+> > **raider1211** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu59gv/) · 42 points
+> > 
+> > Honestly, I think you just have to be willing to say, “we’re playing X on Saturday. If you can’t make it for some reason, that’s fine, but the game is getting played regardless”. That way everyone isn’t held hostage by somebody’s poor planning or genuine life stuff.
+> > 
+> > > **WulfLOL** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu8xhh/) · 24 points
+> > > 
+> > > For a regular game that would work, but if someone in a Legacy game skips its turn, he will have an undergeared/underleved character.
+> > > 
+> > > > **TheForeverUnbanned** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu9zzi/) · 50 points
+> > > > 
+> > > > I’ll play two handed or share the character with someone else in that scenario. Your character participated, this is what happened. I drank all your potions sorry. 
+> > > > 
+> > > > > **Pippin1505** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onukxj5/) · 26 points
+> > > > > 
+> > > > > Also you gifted me all your legendary stuff, that was a very moving moment, thanks again
+> > > 
+> > > > **lankymjc** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuahap/) · 19 points
+> > > > 
+> > > > With retirements being semi-random, it's not unusual to end up with characters at wildly different levels even if everyone is playing every session. So it's not a problem with the XHaven games.
+> > > > 
+> > > > Someone missing a session will miss out on some story, but no one is playing an XHaven game for the story.
+> > > > 
+> > > > **raider1211** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu9b9o/) · 15 points
+> > > > 
+> > > > I mean, that sounds like their problem lol. And I’m not sure of a legacy game where that would even be an issue. Gloomhaven (and I would assume Frosthaven as well) determines game difficulty by averaging all of the character’s levels.
+> > > > 
+> > > > > **daxamiteuk** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onugx32/) · 10 points
+> > > > > 
+> > > > > That’s what we ended up doing for Jaws of the Lion. We always waited for a day that all four of us agreed to, no exceptions. BUT once that day is chosen, if one person dropped out then too bad, the other 3 played anyway . Yes the missing person misses out on loot and XP and the storyline but tough.
+> > > > > 
+> > > > > It still took us 2.5 years to finish
+> > > > > 
+> > > > > > **raider1211** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuhclu/) · 4 points
+> > > > > > 
+> > > > > > Yeah, that seems fair enough. I can’t imagine how long it would have taken if you played something different every time they cancelled lol.
+> > > 
+> > > > **Supper\_Champion** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onud6ww/) · 2 points
+> > > > 
+> > > > This only true to a small degree. Skipping a dlfee scenarios in GH/FH you may be behind in XP, but it's entirely possible the other characters didn't even earn a level up in your absence. As well, you are granted levels when making a new character, if the campaign has been progressed, i.e. you've raised Prosperity through retirements. The only way you could possibly be severely underleveled is if the people playing have not retired their characters and are level 7/8/9 and have not progressed the Prosperity level of the game.
+> > > > 
+> > > > And even then, the difficulty settings take into account all but the most extreme disparities in level.
+> 
+> > **octothorpentine** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu4etg/) · 22 points
+> > 
+> > As someone who joined a Frosthaven campaign in its third year after a previous player moved out of state, I really have to disagree with you. 
+> > 
+> > **Supper\_Champion** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuc6z5/) · 16 points
+> > 
+> > I've never felt this way about GH/FH. They're absolutely designed to enable people to drop in and out easily. I don't agree with any of your scenarios that "ruin" the game.
+> > 
+> > The 'Haven games in particular have such weak stories that don't really matter at all to the gameplay. No one has ever had their enjoyment of these games impacted because they missed some backstory Ona character or didn't play a certain scenario.
+> > 
+> > The stories of these games are 100% the least important aspect of them.
+> > 
+> > > **pointsouttheobvious9** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuvz2m/) · 2 points
+> > > 
+> > > Gloomhaven I had like 10 different people who would drop in and out. Only me and 1 other person played every map.
+> 
+> > **hammerdal** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onubpk7/) · 4 points
+> > 
+> > Got lucky when my group lost interest 10 months into Pandemic Legacy Season One and my dad (who’d already played through it) finished it out with me. I’ve gone on to complete 8 seasons of Pandemic Legacy now, between the 3 versions 😆
+
+> **nosh\_scrumble** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu4nsx/) · 30 points
+> 
+> So you’ve only had three sessions? Start another group with anyone who still seems to give a shit and other folks you can screen in advance for commitment. Three sessions is not that hard to catch people up on and give some backstory. The game is designed to adjust based on party level too, so even if you keep going with a mix of high and low level folks, the game will adjust.
+
+> **WizardHarryDresden** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu3r8h/) · 22 points
+> 
+> This is the exact reason I got into solo games. Finding time for a group of adults is impossible some times.
+
+> **marvellcg** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu6hwe/) · 9 points
+> 
+> Too late for this one but when playing a legacy game we won't rip up cards, they get filed away, we don't permanently mark stuff, we use peelable stickers, its a bit of a chore sometimes but allows a reset or a second play through, plus it gives it a bit of secondary market value.
+
+> **raider1211** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu4bzu/) · 17 points
+> 
+> I will say that any new players can just create their own characters and form a new party, unless that got changed after Gloomhaven.
+> 
+> The job promotion is one thing I guess (though it sounds like they aren’t even attempting to be available), but the “so sowwy guys, my bf thinks board games are for toddlers, and I’d rather bang than have some self respect. See ya!” would be enough for me to cut them off, I think lol. I’d get a new group and keep playing, or just finish it solo (not ideal, I know).
+
+> **FamousPoet** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu73bg/) · 5 points
+> 
+> > I keep asking the group chat when we are going to play again. I get the usual thumbs up emojis or the vague I will check my calendar responses that never lead anywhere.
+> 
+> I know Frosthaven isn't a true TTRPG, but I'm both an avid board gamer and role player. Your description sounds right out of the role-player's handbook - lots of pipe-dreaming, and lot's of "heck yeahs!", but as soon as that concrete date approaches, all the enthusiasm is gone and suddenly everyone has something that comes up.
+
+> **darthkrash** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onud1gu/) · 5 points
+> 
+> It is asking a lot to get a bunch of adults together that many times for the same sort of hangout. I'm sorry this happened to you, but why not just put the game on the shelf as a memory of the good times you did have together and move on to other games or activities that don't require all the same people? Does the fact that it was never completed negate the fun you had those three times?
+
+> **Every-Interview4211** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onzhoqs/) · 5 points
+> 
+> How embarrassing for your friend to date someone who is IMMEDIATELY belittling one of her hobbies... :/
+
+> **TisBeTheFuk** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu692y/) · 13 points
+> 
+> Find other people or finish it solo. Also, that new bf sounds sucky
+
+> **FederalChocolate456** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu63yh/) · 9 points
+> 
+> So when you originally bought the game, was it your idea, or the group's idea? It's not impossible to consistently get a group of adults together for a weekly-ish thing. But the commitment and interest has to be there. I'm wondering if it was there in the first place. Was this something everyone was as bought into as you from the start, or was this something you had the idea for and wanted to do and asked friends to join and they said "sure"?
+> 
+> Since you mentioned it as a girl's night and not a boardgame night, should I take it that board games aren't always the activity or that board games aren't the primary thing bringing yoir group together? If not, I think the issue is this is a game for a gamers' game night, not thrown into the rotation for a girl's night. It needs more dedication and buy in, like D&D. Maybe I'm reading too much into your choice of words, but it kinda sounds like maybe you thought it would be the centerpiece of your girl's night without first confirming with everyone else it would be the centerpiece of your girl's night.
+> 
+> But I feel you, I have a half completed campaign. Bothered me for a bit, then I moved on, but also I wasn't the person who bought the game.
+
+> **Javaslinger** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu2a30/) · 16 points
+> 
+> This happens all the time. People do multiple simultaneous playthroughs. Life happens. Play it with other people.
+
+> **DeaconSteele1** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onua20s/) · 8 points
+> 
+> These types of games to me are the "man I wish they existed when I was a teen and basically had infinite time to play them" type of game... although I guess I couldn't have afforded them back then.
+> 
+> > **asdfg2319** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onw5p9j/) · 2 points
+> > 
+> > Everyone says this, but I feel like my teenage years are littered with the remains of incomplete RPG campaigns, too.
+> > 
+> > 3+ people is just a really hard ask long-term at almost any age and under any circumstances. Like others have said, these games work best at 2P with a spouse or a very close friend.
+
+> **Vakz** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onud2fj/) · 4 points
+> 
+> Tried to do the same with Gloomhaven. Me, my girlfriend, and another couple. Actually managed to do about 10 scenarios, but it took over a year. We eventually just played on our own.
+> 
+> For Frosthaven we didn't even bother trying to play with others. We've just played on our own the whole time. Managing to get four people to play regularly enough to get through the whole game just isn't happening.
+
+> **Yentz4** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onulyba/) · 4 points
+> 
+> This is why I refuse to touch any legacy game. I know my group well enough to know we could NEVER commit to it. We can barely get through anything longer than a DnD 1 shot.
+
+> **MirrorComputingRulez** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onyzmwi/) · 4 points
+> 
+> This is engagement bait. It's a one week old account with hidden history posting something full of this sub's favorite dead horses. On top of that the post has been up for a full day now with hundreds of comments and OP doesn't have a single reply.
+> 
+> This is just a bot y'all.
+> 
+> EDIT: In fact this account has already been marked as a bot lol:
+> 
+> [https://www.reddit.com/r/BotBouncer/comments/1tnjsaa/overview\_for\_mailboxfinch/](https://www.reddit.com/r/BotBouncer/comments/1tnjsaa/overview_for_mailboxfinch/)
+> 
+> Please, I'm begging y'all, be more skeptical of what you read on social media.
+
+> **fahsky** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu3uh3/) · 6 points
+> 
+> I feel your pain. My ex boyfriend & our couple friend dragged Pandemic Legacy out over a ridiculous amount of time, like three+ years because of the pandemic & adulting. We finally got to the last couple months, then we broke up. Two years later, it's still on my shelf, mocking me. I also have Gloomhaven & Jaws of the Lion half played with him, & Frosthaven sitting untouched from when I Kickstarted it 😒
+
+> **samurijack** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu4000/) · 3 points
+> 
+> I’d reset it and restart with another group or sell it.
+> 
+> The ‘havens (except Jaws) are a huge time commitment. My campaign took a year to complete, and that was with near weekly gaming sessions. A buddy of mine took 1.5 years to complete his campaign.
+> 
+> It sucks that your group bailed, and if you choose to restart, I’d emphasize the time commitment to your new group.
+
+> **Adicol** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu494r/) · 3 points
+> 
+> I feel you. It took so much effort to get through Pandemic season 2 that I’ve given up on doing something like this in the future. Unless you can confine this to a single household it’s really, really hard to get everyone together consistently. Tbh I play way more video games these days. Less disappointing.
+
+> **Pecis** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuaecd/) · 3 points
+> 
+> I never got past the 3rd or 4th mission with my group of friends in Gloomhaven. I started playing it solo with three characters and eventually ended up buying the digital version on Steam. I won't even bother with Frosthaven physical copy, straight to digital. Seriously, try the digital on Steam it is a very good adaptation.
+
+> **blindworld** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onudfoc/) · 3 points
+> 
+> One option is to make a weekend out of it. Find a cool Airbnb somewhere with a large table and make sure everyone knows a few hours of frosthaven is the goal. You can split meals, cooking, bring others, maybe some physical activity in the morning like a hike, then sit down with time to play through multiple scenarios.
+> 
+> This will also give you an excuse to be together, and when money is involved people are much less likely to back out last minute, and adding a hike or sightseeing gives significant others a reason to join.
+> 
+> Playing a few scenarios in a row like this will also help everyone determine how much they really like the game. It could spark excitement and make future scheduling easier, or it would show you that your friends are over the game and just feel bad telling you.
+> 
+> If my wife wanted to do this I’d honestly volunteer to do all the cooking so she could maximize her game time. Unfortunately she’s not into campaign style games.
+
+> **RemtonJDulyak** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuoklj/) · 3 points
+> 
+> > The worst part about legacy mechanicss is that you cannot just find new people to fill the slots.
+> 
+> This is why, while I love the idea of legacy games, I hate the idea of buying any of them.  
+> I've been a TTRPG game master since 1986 and believe me, I know your current struggle.  
+> I have interrupted so many campaigns, due to scheduling conflicts...  
+> Wish you that one day the other girls find the time to get back to the table!
+
+> **cursedace** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onwshx6/) · 3 points
+> 
+> Welcome to adulthood
+
+> **Lenient-Hug** · [2026-05-26](https://reddit.com/r/boardgames/comments/1tni2kd/comment/oo1e148/) · 3 points
+> 
+> A man that thinks boardgames are for toddlers ain't worth it at all. Sorry...it just hit a nerve you know? Like any good adult could just easily say "oh it's not for me" like not liking vanilla ice cream and preferring chocolate, I mean sure, that's okay. But saying "UGH ice cream?! That's for like KIDS and babies 🙄" oof...those people seriously need to work on themselves.
+> 
+> Anyways, I do believe you can find good people that could finish the game with you PRECISELY because of this situation you got. Stay strong, you got this 🙏🏻♥️✨
+
+> **BIllyBrooks** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onvc15h/) · 5 points
+> 
+> I'm someone that joined a Frosthaven campaign ~25 sessions in after another left. I don't feel that left out to be honest. It took a few sessions to get the feel of it, but the beauty is that characters retire and a new one comes in. That's how it works.
+> 
+> FWIW, we're all 40+ year old fathers, play is scheduled once a fortnight at the same time each Sunday, but in reality we miss maybe 2/3 for various committments.
+
+> **XaevSpace** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu28a3/) · 13 points
+> 
+> Not that I domt emphasize with your issue but youre not actually supposed to tear up any cards
+> 
+> > **TimeRaveler** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuc9ig/) · 2 points
+> > 
+> > That’s what I was thinking!
+
+> **88Dodgers** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onua6vc/) · 4 points
+> 
+> Look at it like this…you got three great sessions out of it.
+> 
+> > **Belter-frog** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onup7wk/) · 4 points
+> > 
+> > Honestly that's about what my buddy got out of his Gloomhaven box before we switched to digital for logistical purposes (possibly during COVID I forget)
+> > 
+> > But we had so much fun on digital!
+> > 
+> > Which we never would have tried if not for those 5 or so awesome first physical sessions.
+
+> **UglyStru** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu2eu9/) · 2 points
+> 
+> I feel your pain. It’s the same reason why I never got into TTRPGs. Impossible to find a consistent group. Same with legacy games. Frosthaven will be my last legacy purchase for sure
+> 
+> > **fraidei** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu4k8c/) · 3 points
+> > 
+> > I mean, I have DMed many campaigns for TTRPGs, and most of them have managed to stay consistent. I don't see how it would be impossible to find a consistent group.
+
+> **Background\_Suit\_6965** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu2p8k/) · 2 points
+> 
+> The scheduling part is what gets me every time. Three months advance notice sounds reasonable until someone's life completely changes and suddenly those carefully planned dates become impossible. I've been in similar spot with different legacy games and that feeling of looking at half-finished campaign is just brutal
+> 
+> Solo mode isn't defeat though - lot of people actually prefer it for legacy games because you can control the pacing and don't have to deal with scheduling nightmares. At least you'd get to see how story ends instead of having expensive paperweight on shelf. The character progression thing you mentioned is real issue too, jumping into middle of legacy campaign never feels right for new players
+
+> **DoomFrog\_** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu4b4a/) · 2 points
+> 
+> You could use one of the main digital campaign trackers to start a new campaign with new people
+> 
+> There are plenty of resources for tracking all the things without using the stickers and cards, so you could start the campaign and once it gets close to the original then bust out the stickers
+> 
+> If you did tear up some event cards, there are pictures of all of them available. You can print out some replacements, might not be perfect but playable. And if a choice comes up that you remember just let the new players make it
+> 
+> Also you could get Tabletop Simulator for yourself and the other girls. Spend an evening setting everything in your copy up in TTS. Trying to get them to agree to play online remotely might be easier. That is how my friends and I finished Gloomhaven. Plus the set up and clean up is faster, means playing a scenario is just 1 to 2 hours instead of a 3-4hr event
+
+> **The\_Lawn\_Ninja** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu53ka/) · 2 points
+> 
+> I feel you. My group used to play Twilight Imperium several times a year. Now we're lucky if we can get six people together for a light party game on a Friday night. Careers and families make it hard to plan large group games, but we do manage to get three- or four-player game nights in once a month, give or take.
+> 
+> We avoid legacy games for exactly the reason you ran into. There's no guarantee we'll have the same people available on any given game night, and it's functionally impossible to replace a player mid-campaign. But we love campaign games, so we found one that accommodates our situation: Tales from the Red Dragon Inn.
+> 
+> All the characters "level up" simultaneously, so no matter who's playing, at the start of any scenario, anyone can pick any character and make any choices they like, and it'll have no bearing on what anyone else can do in subsequent scenarios.
+> 
+> I know that's not as good as getting to finish the game you're already invested in, but it's one to think about if you want a campaign game that you can finish regardless of who shows up to play.
+
+> **Zestyclose-Rhubarb-7** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu56ad/) · 2 points
+> 
+> Feel this so much.
+> 
+> I have never finished an RPG campaign.
+> 
+> I just agreed to join one after retiring from the genre 7 years ago.
+> 
+> Now I owe a backstory and have to put in all the scheduling plotting and devote mind space to this, and I just know the end result will be 4 meetups over 6 months before I leave yet another hero stranded midway through a dungeon somewhere.
+
+> **Pamponiroz** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu7e72/) · 2 points
+> 
+> I am sorry this happened to you but it doesn't have to end with a *defeat* - I don't even agree with the term, I d use *hibernation* at most. As you have mentioned, there are 2 ways to go forward since this group doesn't seem like it will work anytime soon.
+> 
+> 1. Play it solo 3-4handed. It's not a defeat, I d say it's quite the experience. Don't raise the diff right away, you ll know when it's time.
+> 2. You can find a new group with the legacy part being no problem. Yes, first 3 scenarios will be the same but it has 3 big story arcs, a shitload of secondary quests and you start with 6 unique characters and not 3 or 4. Map stickers? No problem. Halfway, I found it tedious to keep using em. There are apps and helpers to help you keep track of the various things needed, campaign, buildings, pots etc. Don't overthink it. Reusable stickers are nice but I found it a good idea to just reset mine as much as I could, provide buyer with the abovementioned stuff needed and sell it at 1/4th of the price so someone else could enjoy it (played over 90 scenarios and finished it).
+
+> **Signiference** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu7lj0/) · 2 points
+> 
+> We played through all of Gloomhaven from 2020-2021, including forgotten circles expansion (most of it over zoom with a 3-camera setup).
+> 
+> When Frosthaven came out we were all gung ho but not long into it one of our core guys, whose house we played at most of the time, let us know he was moving out of state. Another one of the guys who was more that guy’s friend to begin with stopped showing up when he left (which was surprising as he’d been playing with the rest of us for years at that point but oh well). So while we are back to a core 4-5 with a couple of replacements, the magic of our x-haven adventuring had sort of worn off and the other 3 of us just had no appetite to keep going. So I’ve got 3 tubs of Frosthaven game and 3-d print accessories just sitting on a shelf. Maybe one day..
+
+> **Galausia** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onu87u7/) · 2 points
+> 
+> There's a lot of helpful advice in here I think, so I'm going to offer some bad advice: sabotage your friends job, get her fired and open up her schedule. Try to show the boyfriend the light, and if that doesn't work, drive a wedge in that relationship When she cries about him, Frosthaven will be there.
+
+> **cashmonee81** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onua5ls/) · 2 points
+> 
+> Find one other person who will reliably play. Then the two of you control two characters each. I have found this to be the most enjoyable way to play. If one of the others wants to join, no problem! Give them one of the characters in play to use that night. They aren’t in it for the story anyway.
+> 
+> And please don’t tear anymore cards. Frodthaven can be reset if needed, but not if you destroyed cards.
+
+> **filwi** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onua9l5/) · 2 points
+> 
+> Or check with your friends if they'd be willing to schedule a week-long vacation in order to finish... 
+
+> **Zwiebeloger** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onucp1h/) · 2 points
+> 
+> You can search for players in group finders. I am sure some will pick up the campaign.
+> 
+> To be honest, the one with the boyfriend who thinks board games are for toddlers doesn't sound like relationship material. My girlfriend of 20 years was also not keen on boardgames but it was my hobby and I lived it out with friends and she was fine with that ... So when the boyfriend boardblocks then he is not a good partner anyway ...
+> 
+> My friendgroup and I play Gloomhaven for several years now since we all (esp. me) had troublesome time which just evaporates time so we paused a year or so and then play again. Give it some time, get Jaws of the Lion with a new group or just play the campaign with some other players. You will find some. I bought Gloomhaven back then.
+> 
+> Hope you find a good group ...
+
+> **MaterialDefender1032** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onudql4/) · 2 points
+> 
+> I feel your pain. I even bought and assembled a wooden organizer insert for my copy of Gloomhaven before it was abandoned. I was going to donate it but was lucky enough to find someone to throw a few bucks for it. Nothing feels better than just getting rid of the reminder.
+> 
+> Luckily Gloom and Frost are one of the few, few IPs getting a great digital version.
+
+> **PacoMahogany** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuh49z/) · 2 points
+> 
+> Is it not like the original GH, are you able to just progress with whichever 3 are available to play at a time and adjust the difficulty?  That doesn’t help with the feeling of loss and annoyance, but it will move the game forward.
+
+> **mneffi** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuiwgu/) · 2 points
+> 
+> You absolutely can get new people into a campaign. We have a rotating cast of players who all have their own character. The map is setup before people get there. We play. Make decisions. Have a great time.  Sometime people need a little bit of backstory to rbi g them up to speed. And it gets a little annoying having to repeat rules, but it gets us playing. And maybe it even forms back into a semi-regular group. 
+
+> **Evilknightz** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onukmtd/) · 2 points
+> 
+> This is why I play games like this solo or with my partner, tbh. Scheduling regular games as an adult with groups sounds like a full time job.
+
+> **The\_AverageCanadian** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onukwz6/) · 2 points
+> 
+> Lots of us TTRPG players have the same issue. Scheduling 4-6 adults to meet for multiple hours at the same time every week is really difficult because it requires commitment and flexibility, which not everybody has. I'm lucky enough to have a group that meets once a month consistently, and we aim for every other week but it doesn't always pan out.
+
+> **Neither\_Ad\_9675** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuobeu/) · 2 points
+> 
+> Throw in your country / state maybe you have some people close by in the same situation.
+
+> **Ravek** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onusaox/) · 2 points
+> 
+> Yeah it’s painful. Even if you weren’t playing a legacy game … I’d hate to loose my weekly boardgame group because of work or relationships getting in the way. But it happens.
+
+> **kjbds1** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onuw1q6/) · 2 points
+> 
+> I have sold all my legacy / campaign games that cannot be comfortably done well as solo.
+> 
+> I'm actually the limiting factor in my group (I work in the ICU, particularly rough day means I'm out at 10pm, etc), but I just cannot commit to getting through a full campaign.
+> 
+> Added to that is one of the guys in our group had a complete miserable slog fest for Oathsworn - he was playing with his wife and a friend, his wife's business took off friend just got busy with life. So three motivated people and it still took them a year and by the end they were grinding through the last couple missions purely out of a "dammit, we started it and we're gonna finish it" mindset. And it just wasn't fun.
+
+> **Hopeful\_Telephone264** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onv0d0j/) · 2 points
+> 
+> I had the same problem with Betrayal Legacy. Two games in, it all fell apart. Frustrating stuff, with so little torn up and written on, but it's still too much to easily sell.
+
+> **BirdSpirit** · [2026-05-25](https://reddit.com/r/boardgames/comments/1tni2kd/comment/onv0et8/) · 2 points
+> 
+> This is the exact reason I am turned off from legacy games. Getting people to commit is too hard.
+> 
+> Alternatively you finish it by yourself.
