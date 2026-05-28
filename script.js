@@ -145,8 +145,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function containsMoreComments(nodes, visited = new WeakSet()) {
     if (!Array.isArray(nodes)) return false;
-    if (visited.has(nodes)) return false;
-    visited.add(nodes);
 
     for (const node of nodes) {
       if (!node || typeof node !== 'object') continue;
