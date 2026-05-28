@@ -3,7 +3,6 @@ let style = 'webClipper';
 let escapeNewLine = false;
 let spaceComment = false;
 let excludeDeleted = false;
-const MIN_WEB_CLIPPER_UPS = 2;
 
 document.addEventListener('DOMContentLoaded', () => {
   const urlField = document.getElementById('url-field');
@@ -132,12 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function shouldRenderComment(commentData) {
     if (!commentData?.body) return false;
 
-    if (style === 'webClipper') {
-      if (commentData.author === "[deleted]") return false;
-      if (commentData.body === "[removed]" || commentData.body === "[deleted]") return false;
-      if ((commentData.ups ?? 0) < MIN_WEB_CLIPPER_UPS) return false;
-      return true;
-    }
+    if (style === 'webClipper') return true;
 
     return !(excludeDeleted && commentData?.author === "[deleted]");
   }
