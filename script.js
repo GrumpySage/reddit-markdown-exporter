@@ -143,21 +143,25 @@ document.addEventListener('DOMContentLoaded', () => {
     return !(excludeDeleted && commentData?.author === "[deleted]");
   }
 
-  function containsMoreComments(nodes) {
+  function containsMoreComments(nodes, visited = new WeakSet()) {
     if (!Array.isArray(nodes)) return false;
+    if (visited.has(nodes)) return false;
+    visited.add(nodes);
 
     for (const node of nodes) {
       if (!node || typeof node !== 'object') continue;
+      if (visited.has(node)) continue;
+      visited.add(node);
 
       if (node.kind === "more" || node.data?.kind === "more") {
         return true;
       }
 
-      if (containsMoreComments(node.data?.replies?.data?.children)) {
+      if (containsMoreComments(node.data?.replies?.data?.children, visited)) {
         return true;
       }
 
-      if (containsMoreComments(node.data?.children)) {
+      if (containsMoreComments(node.data?.children, visited)) {
         return true;
       }
     }
