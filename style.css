@@ -5,6 +5,14 @@ body {
   color: #1e1e1e;
 }
 
+.warning-banner {
+  background: #b42318;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+}
+
 .hero {
   text-align: center;
   padding: 2rem 1rem 1rem;

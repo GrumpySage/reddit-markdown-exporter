@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const outputDisplay = document.getElementById('outputDisplay');
   const outputContainer = document.getElementById('outputContainer');
   const downloadLink = document.getElementById('downloadLink');
+  const moreCommentsWarning = document.getElementById('moreCommentsWarning');
 
   exportBtn.addEventListener('click', startExport);
 
@@ -34,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function fetchRedditData(url) {
     output = '';
     outputContainer.style.display = "none";
+    if (moreCommentsWarning) moreCommentsWarning.style.display = "none";
 
     const xhr = new XMLHttpRequest();
     xhr.open('GET', `${url}.json`);
@@ -49,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const data = xhr.response;
         const post = data[0]?.data?.children?.[0]?.data;
         const comments = data[1]?.data?.children || [];
+        const hasMoreComments = containsMoreComments(comments);
 
         if (!post) {
           alert('Could not find post data.');
@@ -70,6 +73,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
           }
         });
+
+        if (moreCommentsWarning) {
+          moreCommentsWarning.style.display = hasMoreComments ? "block" : "none";
+        }
 
         outputDisplay.textContent = output;
         outputContainer.style.display = "flex";
@@ -134,6 +141,28 @@ document.addEventListener('DOMContentLoaded', () => {
     if (style === 'webClipper') return true;
 
     return !(excludeDeleted && commentData?.author === "[deleted]");
+  }
+
+  function containsMoreComments(nodes) {
+    if (!Array.isArray(nodes)) return false;
+
+    for (const node of nodes) {
+      if (!node || typeof node !== 'object') continue;
+
+      if (node.kind === "more" || node.data?.kind === "more") {
+        return true;
+      }
+
+      if (containsMoreComments(node.data?.replies?.data?.children)) {
+        return true;
+      }
+
+      if (containsMoreComments(node.data?.children)) {
+        return true;
+      }
+    }
+
+    return false;
   }
 
   function getCommentPrefix(depth) {
