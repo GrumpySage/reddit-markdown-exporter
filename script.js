@@ -3,6 +3,7 @@ let style = 'webClipper';
 let escapeNewLine = false;
 let spaceComment = false;
 let excludeDeleted = false;
+const MIN_WEB_CLIPPER_UPS = 2;
 
 document.addEventListener('DOMContentLoaded', () => {
   const urlField = document.getElementById('url-field');
@@ -116,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function escapeMarkdownText(text) {
-    return String(text).replace(/([\\`*_{}[\]()#+\-.!|])/g, '\\$1');
+    return String(text).replace(/([\\`*_{}[\]()#+!|-])/g, '\\$1');
   }
 
   function formatDate(createdUtc) {
@@ -134,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (style === 'webClipper') {
       if (commentData.author === "[deleted]") return false;
       if (commentData.body === "[removed]" || commentData.body === "[deleted]") return false;
-      if ((commentData.ups ?? 0) < 2) return false;
+      if ((commentData.ups ?? 0) < MIN_WEB_CLIPPER_UPS) return false;
       return true;
     }
 
