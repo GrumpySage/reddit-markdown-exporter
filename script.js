@@ -97,6 +97,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function displayPost(post) {
+    if (style === 'webClipper') {
+      if (post.selftext) {
+        output += `${post.selftext}\n`;
+      } else {
+        output += `# ${post.title}\n`;
+      }
+      output += '\n---';
+      return;
+    }
+
     output += `# ${post.title}\n`;
     if (post.selftext) {
       output += `\n${post.selftext}\n`;
@@ -105,12 +115,25 @@ document.addEventListener('DOMContentLoaded', () => {
     output += `\nby *${post.author}* (↑ ${post.ups} / ↓ ${post.downs})`;
   }
 
+  function escapeMarkdownText(text) {
+    return String(text).replace(/([\\`*_{}[\]()#+!|-])/g, '\\$1');
+  }
+
+  function formatDate(createdUtc) {
+    if (!createdUtc) return 'unknown-date';
+    return new Date(createdUtc * 1000).toISOString().slice(0, 10);
+  }
+
   function formatComment(text) {
     return escapeNewLine ? text.replace(/(\r\n|\n|\r)/gm, '') : text;
   }
 
   function shouldRenderComment(commentData) {
-    return Boolean(commentData?.body) && !(excludeDeleted && commentData?.author === "[deleted]");
+    if (!commentData?.body) return false;
+
+    if (style === 'webClipper') return true;
+
+    return !(excludeDeleted && commentData?.author === "[deleted]");
   }
 
   function getCommentPrefix(depth) {
@@ -128,18 +151,33 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function displayComment(comment, depth) {
-    const { body, author, ups, downs, replies } = comment.data || {};
+    const { body, author, ups, downs, replies, created_utc, permalink } = comment.data || {};
     if (!shouldRenderComment(comment.data)) return;
 
     const prefix = getCommentPrefix(depth);
     const formattedBody = formatComment(body);
     const bodyLines = formattedBody.split(/\r\n|\n|\r/);
-    const prefixedBody = bodyLines.map(line => `${prefix}${line}`).join('\n');
-    const metadata = `${prefix}⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
-    const commentLine = style === 'webClipper' || bodyLines.length > 1
-      ? `${prefixedBody}\n${metadata}`
-      : `${prefixedBody} ${metadata.slice(prefix.length)}`;
-    output += `${commentLine}\n`;
+
+    if (style === 'webClipper') {
+      const safeAuthor = escapeMarkdownText(author || '[deleted]');
+      const date = formatDate(created_utc);
+      const pointsLabel = ups === 1 ? 'point' : 'points';
+      const commentUrl = permalink ? `https://reddit.com${permalink}` : 'https://reddit.com';
+
+      output += `${prefix}**${safeAuthor}** · [${date}](${commentUrl}) · ${ups} ${pointsLabel}\n`;
+      output += `${prefix}\n`;
+      bodyLines.forEach(line => {
+        output += `${prefix}${line}\n`;
+      });
+      output += `${prefix}\n`;
+    } else {
+      const prefixedBody = bodyLines.map(line => `${prefix}${line}`).join('\n');
+      const metadata = `${prefix}⏤ by *${author}* (↑ ${ups} / ↓ ${downs})`;
+      const commentLine = bodyLines.length > 1
+        ? `${prefixedBody}\n${metadata}`
+        : `${prefixedBody} ${metadata.slice(prefix.length)}`;
+      output += `${commentLine}\n`;
+    }
 
     if (replies?.data?.children?.length) {
       replies.data.children.forEach(reply => displayComment(reply, depth + 1));
