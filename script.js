@@ -22,7 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     setOptions();
-    fetchRedditData(url);
+    if (style === 'api') {
+      fetchWithArcticAPI(url);
+    } else {
+      fetchRedditData(url);
+    }
   }
 
   function setOptions() {
@@ -104,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function displayPost(post) {
-    if (style === 'webClipper') {
+    if (style === 'webClipper' || style === 'api') {
       if (post.selftext) {
         output += `${post.selftext}\n`;
       } else {
@@ -138,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function shouldRenderComment(commentData) {
     if (!commentData?.body) return false;
 
-    if (style === 'webClipper') return true;
+    if (style === 'webClipper' || style === 'api') return true;
 
     return !(excludeDeleted && commentData?.author === "[deleted]");
   }
@@ -189,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const formattedBody = formatComment(body);
     const bodyLines = formattedBody.split(/\r\n|\n|\r/);
 
-    if (style === 'webClipper') {
+    if (style === 'webClipper' || style === 'api') {
       const safeAuthor = escapeMarkdownText(author || '[deleted]');
       const date = formatDate(created_utc);
       const pointsLabel = ups === 1 ? 'point' : 'points';
@@ -214,6 +218,103 @@ document.addEventListener('DOMContentLoaded', () => {
       replies.data.children.forEach(reply => displayComment(reply, depth + 1));
     }
 
+  }
+
+  function extractPostId(url) {
+    const match = url.match(/reddit\.com\/r\/[^/]+\/comments\/([a-z0-9]+)/i);
+    return match ? match[1] : null;
+  }
+
+  function normalizeCommentNode(node) {
+    if (node.kind !== 't1' || !node.data) return;
+    const d = node.data;
+    if (d.ups === undefined || d.ups === null) d.ups = d.score ?? 0;
+    if (d.downs === undefined || d.downs === null) d.downs = 0;
+    const children = d.replies?.data?.children;
+    if (Array.isArray(children)) {
+      children.forEach(normalizeCommentNode);
+    }
+  }
+
+  function fetchWithArcticAPI(url) {
+    output = '';
+    outputContainer.style.display = "none";
+    if (moreCommentsWarning) moreCommentsWarning.style.display = "none";
+
+    const postId = extractPostId(url);
+    if (!postId) {
+      alert('Could not extract post ID from URL.');
+      return;
+    }
+
+    const BASE = 'https://arctic-shift.photon-reddit.com';
+
+    Promise.all([
+      fetch(`${BASE}/api/posts/ids?ids=${postId}`).then(r => r.json()),
+      fetch(`${BASE}/api/comments/tree?link_id=t3_${postId}&limit=9999`).then(r => r.json())
+    ]).then(([postRes, commentsRes]) => {
+      try {
+        const post = postRes.data?.[0];
+        const comments = commentsRes.data || [];
+
+        if (!post) {
+          alert('Could not find post data. The post may not be archived yet.');
+          return;
+        }
+
+        post.ups = post.ups ?? post.score ?? 0;
+        post.downs = post.downs ?? 0;
+        if (!post.permalink) {
+          post.permalink = `/r/${post.subreddit}/comments/${post.id}/`;
+        }
+
+        comments.forEach(normalizeCommentNode);
+
+        const hasMoreComments = containsMoreComments(comments);
+
+        displayPost(post);
+        output += '\n\n## Comments\n\n';
+
+        let commentCount = 0;
+        comments.forEach(comment => {
+          if (comment.kind === "t1" && shouldRenderComment(comment.data)) {
+            try {
+              if (commentCount > 0) output += spaceComment ? '\n\n' : '\n';
+              displayComment(comment, comment.data?.depth || 0);
+              commentCount++;
+            } catch (e) {
+              console.warn('Skipping comment due to error:', comment, e);
+            }
+          }
+        });
+
+        if (moreCommentsWarning) {
+          moreCommentsWarning.style.display = hasMoreComments ? "block" : "none";
+        }
+
+        outputDisplay.textContent = output;
+        outputContainer.style.display = "flex";
+
+        document.getElementById("summaryTitle").textContent = post.title;
+        document.getElementById("summaryAuthor").textContent = post.author;
+        document.getElementById("summaryUps").textContent = post.ups;
+        document.getElementById("summaryComments").textContent = commentCount;
+        document.getElementById("summaryPermalink").href = "https://reddit.com" + post.permalink;
+
+        const blob = new Blob([output], { type: 'text/plain' });
+        const safeTitle = post.title.replace(/[^a-z0-9]/gi, '_').toLowerCase().slice(0, 50);
+        downloadLink.href = URL.createObjectURL(blob);
+        downloadLink.download = `${safeTitle || 'reddit_thread'}.md`;
+        downloadLink.classList.remove('hidden');
+        downloadLink.hidden = false;
+      } catch (err) {
+        alert('Something went wrong while processing the Reddit data.');
+        console.error('Processing error:', err);
+      }
+    }).catch((err) => {
+      console.error('Network error fetching from Arctic Shift API:', err);
+      alert('Network error occurred while fetching from the Arctic Shift API.');
+    });
   }
 
   document.getElementById("copyButton").addEventListener("click", () => {
