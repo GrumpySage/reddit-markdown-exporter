@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function displayPost(post) {
-    if (style === 'webClipper' || style === 'api') {
+    if (style === 'webClipper') {
       if (post.selftext) {
         output += `${post.selftext}\n`;
       } else {
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function shouldRenderComment(commentData) {
     if (!commentData?.body) return false;
 
-    if (style === 'webClipper' || style === 'api') return true;
+    if (style === 'webClipper') return true;
 
     return !(excludeDeleted && commentData?.author === "[deleted]");
   }
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return indent ? `├${indent} ` : '##### ';
     }
 
-    if (style === 'list') {
+    if (style === 'list' || style === 'api') {
       const indent = '\t'.repeat(depth);
       return indent ? `${indent}- ` : '- ';
     }
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const formattedBody = formatComment(body);
     const bodyLines = formattedBody.split(/\r\n|\n|\r/);
 
-    if (style === 'webClipper' || style === 'api') {
+    if (style === 'webClipper') {
       const safeAuthor = escapeMarkdownText(author || '[deleted]');
       const date = formatDate(created_utc);
       const pointsLabel = ups === 1 ? 'point' : 'points';
